@@ -1,0 +1,14 @@
+
+
+#game {
+  border: 1px solid blue;
+  position: relative;
+
+
+}
+
+#background {
+  position: absolute;
+  border: 1px solid red;
+
+}
