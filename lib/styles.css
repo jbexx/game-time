@@ -1,14 +1,17 @@
-
+body {
+  background-color: #000000;
+}
 
 #game {
+  position: absolute;
+  top: 10px;
+  left: 200px;
   border: 1px solid blue;
-  position: relative;
-
-
 }
 
 #background {
   position: absolute;
+  top: 10px;
+  left: 200px;
   border: 1px solid red;
-
 }
