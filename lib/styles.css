@@ -1,7 +1,11 @@
 body {
-  margin: 0;
+  align-items: center;
   background-color: #000;
+  display: flex;
+  flex-direction: column;
   font-family: 'Press Start 2P', cursive;
+  justify-content: center;
+  margin: 0;
 }
 
 h1 {
@@ -16,19 +20,24 @@ img {
   margin: auto;
 }
 
+.canvas-container {
+  display: block;
+  width: 850px;
+  margin: auto;
+}
 
 #game {
   position: absolute;
-  top: 171px;
-  left: 237px;
+  /*top: 171px;
+  left: 237px;*/
   border: 1px solid blue;
 }
 
 #background {
-  /*position: absolute;
-  top: 150px;
+  position: absolute;
+  /*top: 150px;
   left: 200px;*/
-  display: block;
-  margin: auto;
-  /*border: 1px solid red;*/
+  /*display: block;
+  margin: auto;*/
+  border: 1px solid red;
 }
