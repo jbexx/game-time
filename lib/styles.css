@@ -50,7 +50,7 @@ main {
 
 .score,
 .hi-score,
-.player-score,
+#player-score,
 .instructions {
   color: #fff;
 }
@@ -73,15 +73,15 @@ main {
 }
 
 .hi-score,
-.player-score {
-  font-size: 20px;
+#player-score {
+  font-size: 25px;
 }
 
 .instruction-container {
   width: 20%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:flex-start;
   justify-content: space-around;
 }
 
@@ -93,7 +93,7 @@ main {
   color: #fff;
   cursor: pointer;
   font-family: inherit;
-  font-size: 25px;
+  font-size: 30px;
   outline: none;
 }
 
@@ -106,7 +106,6 @@ main {
   align-items: center;
 }
 
-.arrow,
 .space {
   height: 100px;
   width: 100px;
@@ -115,16 +114,21 @@ main {
 .arrow {
   height: 75px;
   width: 75px;
-  margin-left: 25px;
+}
+
+#left {
+  margin-bottom: 20px;
 }
 
 #shoot {
   margin-left: 20px;
   color: red;
+  font-size: 20px;
 }
 
 #move-left,
 #move-right {
   margin-left: 20px;
   color: red;
+  font-size: 20px;
 }
