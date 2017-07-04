@@ -1,29 +1,28 @@
 body {
-  align-items: center;
-  background-color: #000;
   display: flex;
   flex-direction: column;
-  font-family: 'Press Start 2P', cursive;
+  align-items: center;
   justify-content: center;
   margin: 0;
+  background-color: #000;
+  font-family: 'Press Start 2P', cursive;
 }
 
 h1 {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
 img {
-  width: 350px;
   height: 150px;
+  width: 350px;
   display: block;
   margin: auto;
 }
 
 .canvas-container {
   display: block;
-  width: 850px;
   margin: auto;
+  margin: 0;
 }
 
 #game {
@@ -43,25 +42,22 @@ img {
 }
 
 main {
-  width: 100%;
   height: 600px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
-  /*vertical-align: top;*/
-  /*align-items: baseline;*/
-
 }
 
 .score,
 .hi-score,
-.player-score,
+#player-score,
 .instructions {
   color: #fff;
 }
 
 .score,
 .instructions {
-  font-size: 30px;
+  font-size: 25px;
 }
 
 .score {
@@ -69,19 +65,61 @@ main {
 }
 
 .score-container {
+  width: 20%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 100px;
   justify-content: center;
-  /*border: 1px solid #fff;*/
 }
 
 .hi-score,
-.player-score {
+#player-score {
   font-size: 25px;
 }
 
 .instruction-container {
-  margin-right: 100px;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: space-around;
+}
+
+#start-game {
+  color: #fff;
+  font-size: 30px;
+  line-height: 1.5em;
+  text-align: center;
+}
+
+.directions {
+  display: flex;
+  align-items: center;
+}
+
+.space {
+  height: 100px;
+  width: 100px;
+}
+
+.arrow {
+  height: 75px;
+  width: 75px;
+}
+
+#left {
+  margin-bottom: 20px;
+}
+
+#shoot {
+  margin-left: 20px;
+  color: red;
+  font-size: 20px;
+}
+
+#move-left,
+#move-right {
+  margin-left: 20px;
+  color: red;
+  font-size: 20px;
 }
