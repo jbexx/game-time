@@ -15,7 +15,7 @@
       <h2 class="score">HI-SCORE</h2>
       <h3 class="hi-score">3500</h3>
       <h2 class="score">SCORE</h2>
-      <h3 class="player-score">1500</h3>
+      <h3 id="player-score">0</h3>
     </div>
     <div class="canvas-container">
       <div class="game-counter"></div>
@@ -23,7 +23,19 @@
       <canvas id="game" width="800" height="600"></canvas>
     </div>
     <div class="instruction-container">
-      <h2 class="instructions">How To Play</h2>
+      <h2 class="instructions" id="start-game">PRESS ENTER TO START</h2>
+      <div class="directions" id="left">
+        <img class="arrow" src="assets/left-arrow-variant-key-on-keyboard (2).svg" alt="left arrow">
+        <h3 id="move-left">MOVE LEFT</h3>
+      </div>
+      <div class="directions">
+        <img class="arrow" src="assets/keyboard-key-pointing-to-right (2).svg" alt="right arrow">
+        <h3 id="move-right">MOVE RIGHT</h3>
+      </div>
+      <div class="directions">
+        <img class="space" src="assets/native-button.svg" alt="space bar">
+        <h3 id="shoot">SHOOT</h3>
+      </div>
 
     </div>
   </main>
