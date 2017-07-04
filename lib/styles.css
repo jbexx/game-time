@@ -86,19 +86,10 @@ main {
 }
 
 #start-game {
-  width: 300px;
-  padding: 0;
-  border: none;
-  background: none;
   color: #fff;
-  cursor: pointer;
-  font-family: inherit;
   font-size: 30px;
-  outline: none;
-}
-
-#start-game:hover {
-  color: red;
+  line-height: 1.5em;
+  text-align: center;
 }
 
 .directions {
