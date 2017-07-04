@@ -26,20 +26,24 @@ img {
   margin: auto;
 }
 
+.game-counter {
+  color: #fff;
+  font-size: 4em;
+  height: 200px;
+  line-height: 1.5em;
+  margin: 200px;
+  padding-top: 10px;
+  position: absolute;
+  text-align: center;
+  width: 400px;
+}
+
 #game {
-  /*position: absolute;*/
-  /*top: 171px;
-  left: 237px;*/
   border: 1px solid blue;
 }
 
 #background {
   position: absolute;
-  /*top: 150px;
-  left: 200px;*/
-  /*display: block;
-  margin: auto;*/
-  /*border: 1px solid red;*/
 }
 
 main {
