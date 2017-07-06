@@ -1,3 +1,15 @@
+var assert = require('chai').assert;
+var Ship = require('../lib/Ship.js');
+
+describe('Ship', function () {
+
+  it('should be a function', function() {
+    assert.isFunction(Ship)
+  })
+})
+
+
+
 // var { expect, assert } = require('chai');
 // var Block = require('../lib/Block');
 //
