@@ -1,4 +1,4 @@
-var assert = require('chai').assert;
+var { expect, assert } = require('chai');
 var Bullet = require('../lib/Bullet.js');
 
 describe('Bullet', function () {
