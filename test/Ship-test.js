@@ -1,4 +1,4 @@
-var assert = require('chai').assert;
+var { expect, assert } = require('chai');
 var Ship = require('../lib/Ship.js');
 
 describe('Ship', function () {
