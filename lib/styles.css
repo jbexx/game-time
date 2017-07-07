@@ -12,7 +12,7 @@ h1 {
   margin: 10px 0;
 }
 
-img {
+.logo {
   height: 150px;
   width: 350px;
   display: block;
@@ -72,6 +72,16 @@ main {
 
 .score {
   color: red;
+}
+
+.lives {
+  height: 45px;
+}
+
+.lives img {
+  height: 45px;
+  margin: 5px;
+  width: 45px;
 }
 
 .score-container {
