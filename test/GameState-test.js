@@ -31,32 +31,8 @@ describe('GameState', function () {
 
   it('should increase score by 100', () => {
     expect(game.score).to.equal(0);
-    game.updateScore(); 
+    game.updateScore();
     expect(game.score).to.equal(100);
   })
-
-  // it('should have a velocity', () => {
-  //   expect(bullet.velocity).to.equal(-8);
-  // })
-  //
-  // it('should have a width', () => {
-  //   expect(bullet.width).to.equal(10);
-  // })
-  //
-  // it('should have a height', () => {
-  //   expect(bullet.height).to.equal(20);
-  // })
-  //
-  // it('should have a boolean as property of active', () => {
-  //   expect(bullet.active).to.be.a('boolean');
-  // })
-  //
-  // it('should have an image', () => {
-  //   expect(bullet.img).to.equal('assets/galaga_sprite_sheet.png');
-  // })
-  //
-  // it('should have a draw method', () => {
-  //   assert.isFunction(bullet.draw)
-  // })
 
 })
