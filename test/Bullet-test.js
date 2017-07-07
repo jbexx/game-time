@@ -3,7 +3,7 @@ var Bullet = require('../lib/Bullet.js');
 
 describe('Bullet', function () {
 
-  bullet = new Bullet('assets/galaga_sprite_sheet.png', 13, 550, -8);
+  var bullet = new Bullet('assets/galaga_sprite_sheet.png', 13, 550, -8);
 
   it('should be a function', function() {
     assert.isFunction(Bullet)
