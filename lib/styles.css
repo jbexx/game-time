@@ -1,7 +1,7 @@
 body {
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
   margin: 0;
   background-color: #000;
@@ -21,21 +21,19 @@ h1 {
 
 .canvas-container {
   display: block;
-  margin: auto;
-  margin: 0;
 }
 
 .game-counter,
 .play-again {
+  height: 200px;
+  width: 400px;
+  position: absolute;
+  margin: 200px 200px 0;
+  padding-top: 10px;
   color: #fff;
   font-size: 4em;
-  height: 200px;
   line-height: 1.5em;
-  margin: 200px;
-  padding-top: 10px;
-  position: absolute;
   text-align: center;
-  width: 400px;
 }
 
 .play-again {
@@ -67,11 +65,11 @@ main {
 
 .score,
 .instructions {
-  font-size: 25px;
+  font-size: 1.6em;
 }
 
 .score {
-  color: red;
+  color: #ff0000;
 }
 
 .lives {
@@ -80,34 +78,38 @@ main {
 
 .lives img {
   height: 45px;
-  margin: 5px;
   width: 45px;
+  margin: 5px;
 }
 
 .score-container {
   width: 20%;
   display: flex;
-  flex-direction: column;
   align-items: center;
+  flex-direction: column;
   justify-content: center;
+}
+
+.score-container {
+  margin-left: some pixels
 }
 
 .hi-score,
 #player-score {
-  font-size: 25px;
+  font-size: 1.6em;
 }
 
 .instruction-container {
   width: 20%;
   display: flex;
-  flex-direction: column;
   align-items:flex-start;
+  flex-direction: column;
   justify-content: space-around;
 }
 
 #start-game {
   color: #fff;
-  font-size: 30px;
+  font-size: 1.8em;
   line-height: 1.5em;
   text-align: center;
 }
@@ -126,20 +128,19 @@ main {
   height: 75px;
   width: 75px;
 }
-
 #left {
   margin-bottom: 20px;
 }
 
 #shoot {
   margin-left: 20px;
-  color: red;
-  font-size: 20px;
+  color: #ff0000;
+  font-size: 1.5em;
 }
 
 #move-left,
 #move-right {
   margin-left: 20px;
-  color: red;
-  font-size: 20px;
+  color: #ff0000;
+  font-size: 1.5em;
 }
