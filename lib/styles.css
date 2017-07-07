@@ -25,7 +25,8 @@ img {
   margin: 0;
 }
 
-.game-counter {
+.game-counter,
+.play-again {
   color: #fff;
   font-size: 4em;
   height: 200px;
@@ -35,6 +36,11 @@ img {
   position: absolute;
   text-align: center;
   width: 400px;
+}
+
+.play-again {
+  padding-top: 250px;
+  font-size: 2em;
 }
 
 #game {
