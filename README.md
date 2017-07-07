@@ -172,3 +172,11 @@ Two main points to pay attention to:
 1. In the `Block-test.js` file, we require the `Block.js` file so that we can construct blocks in our tests.
 
 2. In the `test/index.js` file, we require the `Block-test.js` file so that we can view the test results in the browser (at `http://localhost:8080/webpack-dev-server/test.html`).
+
+
+
+
+# GALAGA
+
+## Description
+Galaga is a game that consists of the player ship and multiple invaders. You must shoot all of the invaders before moving on to the next phase of the game. When the game begins, you have 3 lives. You lose when you have been the player ship has been shot by invaders 3 times. This game is still a work in progress as to get the invaders to fly in formation and fly at the player ship.
